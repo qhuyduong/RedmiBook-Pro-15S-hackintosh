@@ -38,7 +38,7 @@ Sleep | PowerPlay panic on wake, still investigating | ⚠️
 
 ### Pre-Installation
 
-#### Disabling XHC1
+#### Disabling XHC1 (credit to [ExtremeXT](https://github.com/ExtremeXT))
 
 > **Warning**
 >
