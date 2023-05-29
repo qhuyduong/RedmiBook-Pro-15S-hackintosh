@@ -3,7 +3,7 @@
 ## Specifications
 
 Type | Spec
-:---------|:---------|:----------
+:---------|:---------
 Model Name      | RedmiBook Pro 15S 2021
 CPU              | AMD Ryzen™ 7 5800H
 RAM           | 16 GB 3200 MHz DDR4
