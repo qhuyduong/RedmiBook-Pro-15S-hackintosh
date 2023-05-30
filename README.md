@@ -33,6 +33,7 @@ Type | Info | Status
 USB | At the moment we need to disable one of the two USB controllers, so the ports connected to it will NOT work even in other OSes, until the setting is reverted in UMAF. | ⚠️
 Bluetooth | Same as USB | ⚠️
 Sleep | PowerPlay panic on wake, still investigating | ⚠️
+Microphone | It is not working for AMD, even desktops | ⚠️
 
 ## Instructions
 
