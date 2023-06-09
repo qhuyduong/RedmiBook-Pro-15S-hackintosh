@@ -65,7 +65,7 @@ Kext | Info
 [SMCAMDProcessor](https://github.com/trulyspinach/SMCAMDProcessor) | Companion to AMDRyzenCPUPowerManagement
 [SMCBatteryManager](https://github.com/acidanthera/VirtualSMC) | Enables battery reading
 [SMCLightSensor](https://github.com/acidanthera/VirtualSMC) | Ambient light sensor on laptops
-[SMCRadeonGPU](https://github.com/aluveitie/RadeonSensor) | Companion to RadeonSensor
+[SMCRadeonGPU](https://github.com/NootInc/RadeonSensor) | Companion to RadeonSensor
 [USBToolBox](https://github.com/USBToolBox/kext) | Useful USB ACPI renames and prerequisite for UTBMap
 [UTBMap](https://github.com/USBToolBox/tool) | USB Map
 [VirtualSMC](https://github.com/acidanthera/VirtualSMC) | Advanced Apple SMC emulator in the kernel
