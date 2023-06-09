@@ -32,7 +32,6 @@ Type | Info | Status
 :---------|:---------|:----------
 USB | At the moment we need to disable one of the two USB controllers, so the ports connected to it will NOT work even in other OSes, until the setting is reverted in UMAF. | ⚠️
 Bluetooth | Same as USB | ⚠️
-Sleep | PowerPlay panic on wake, still investigating | ⚠️
 Microphone | It is not working for AMD, even desktops | ⚠️
 
 ## Instructions
@@ -53,16 +52,14 @@ Kext | Info
 [AMDRyzenCPUPowerManagement](https://github.com/trulyspinach/SMCAMDProcessor) | AMD CPU Power Management
 [AppleALC](https://github.com/acidanthera/AppleALC) | Fixes audio
 [AppleMCEReporterDisabler](https://files.amd-osx.com/AppleMCEReporterDisabler.kext.zip) | Disables AppleIntelMCEReporter which causes panics on AMD CPUs
-[ECEnabler](https://github.com/1Revenger1/ECEnabler) | Battery reading fixes
 [FeatureUnlock](https://github.com/acidanthera/FeatureUnlock) | Fix Continuity Camera on macOS Ventura
 [Lilu](https://github.com/acidanthera/Lilu) | Patch Engine
 [NVMeFix](https://github.com/acidanthera/NVMeFix) | NVMe Power Management
-[RadeonSensor](https://github.com/aluveitie/RadeonSensor) | Temperature readings for AMD GPUs. Disable for NVIDIA GPUs
-[RealtekRTL8111](https://github.com/Mieze/RTL8111_driver_for_OS_X) | Ethernet driver
+[RadeonSensor](https://github.com/NootInc/RadeonSensor) | Temperature readings for AMD GPUs
 [RestrictEvents](https://github.com/acidanthera/RestrictEvents) | Change CPU Name
 [SMCAMDProcessor](https://github.com/trulyspinach/SMCAMDProcessor) | Companion to AMDRyzenCPUPowerManagement
 [SMCBatteryManager](https://github.com/acidanthera/VirtualSMC) | Enables battery reading
-[SMCRadeonGPU](https://github.com/aluveitie/RadeonSensor) | Companion to RadeonSensor. Disable for NVIDIA GPUs
+[SMCRadeonGPU](https://github.com/aluveitie/RadeonSensor) | Companion to RadeonSensor
 [USBToolBox](https://github.com/USBToolBox/kext) | Useful USB ACPI renames and prerequisite for UTBMap
 [UTBMap](https://github.com/USBToolBox/tool) | USB Map
 [VirtualSMC](https://github.com/acidanthera/VirtualSMC) | Advanced Apple SMC emulator in the kernel
@@ -72,12 +69,13 @@ Kext | Info
   
 SSDT | Info
 :---------|:---------
-[SSDT-PLUG-ALT](/Extras/Decompiled%20ACPI%20Files/SSDT-CPUR.dsl) | Fixes CPU definitions.
-[SSDT-EC](/Extras/Decompiled%20ACPI%20Files/SSDT-EC.dsl) | Adds a fake Embedded Controller device.
-[SSDT-HPET](/Extras/Decompiled%20ACPI%20Files/SSDT-HPET.dsl) | Fixes IRQ conflicts.
-[SSDT-SBUS-MCHC](/Extras/Decompiled%20ACPI%20Files/SSDT-SBUS-MCHC.dsl) | Fixes AppleSMBus.
-[SSDT-USBX](/Extras/Decompiled%20ACPI%20Files/SSDT-USBX.dsl) | Enables USB Power Management.
-[SSDT-XOSI](/Extras/Decompiled%20ACPI%20Files/SSDT-XOSI.dsl) | Spoof macOS to Windows for some ACPI features.
+SSDT-ALS0 | Enables Ambient Light Sensor.
+SSDT-EC-USBX | Adds a fake Embedded Controller device and enables USB Power Management.
+SSDT-HPET | Fixes IRQ conflicts.
+SSDT-PLUG-ALT | Fixes CPU definitions.
+SSDT-PNLF | Fixes Backlight control.
+SSDT-SBUS-MCHC | Fixes AppleSMBus.
+SSDT-XOSI | Spoof macOS to Windows for some ACPI features.
 
 ## Credits
 
