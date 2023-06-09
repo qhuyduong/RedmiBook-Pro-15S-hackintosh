@@ -1,5 +1,7 @@
 # macOS on RedmiBook Pro 15S (WIP)
 
+![Screenshot](./Screenshots/Monterey.png)
+
 ## Specifications
 
 Type | Spec
@@ -41,6 +43,10 @@ Microphone | It is not working for AMD, even desktops | ⚠️
 #### Disabling XHC1 (credit to [ExtremeXT](https://github.com/ExtremeXT))
 
 https://github.com/ExtremeXT/Lenovo_Legion_5_Hackintosh#disabling-xhc1
+
+#### Disabling NootedRed
+
+NootedRed cannot be used in macOS installation. Need to disable it while installing and re-enable it then.
 
 ## Notes
 
