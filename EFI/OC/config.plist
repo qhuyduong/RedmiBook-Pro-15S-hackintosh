@@ -2041,6 +2041,10 @@
 				<string>No</string>
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
+				<key>bluetoothInternalControllerInfo</key>
+				<data>AAAAAAAAAAAAAAAAAAA=</data>
+				<key>bluetoothExternalDongleFailed</key>
+				<data>AA==</data>
 			</dict>
 		</dict>
 		<key>Delete</key>
