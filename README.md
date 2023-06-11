@@ -15,6 +15,7 @@ Audio | Realtek ALC256
 
 ## macOS Update History
 
+- ✅ macOS Ventura 13.4
 - ✅ macOS Monterey 12.6.6
 
 ## What's working
