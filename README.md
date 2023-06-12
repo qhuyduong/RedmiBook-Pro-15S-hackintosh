@@ -99,6 +99,6 @@ SSDT-XOSI | Spoof macOS to Windows for some ACPI features
 - [Dortania](https://dortania.github.io) for their awesome guides.
 - [Apple](https://www.apple.com) for macOS.
 - [Acidanthera](https://github.com/acidanthera) for OpenCore and most Kexts.
-- [**NootedInc**](https://github.com/NootInc) for all the hard work to support AMD iGPU and trackpad.
+- [**NootInc**](https://github.com/NootInc) for all the hard work to support AMD iGPU and trackpad.
 - [ExtremeXT](https://github.com/ExtremeXT) for the instruction to disable XHC1
 - And anyone else that helped to develop and improve hackintoshing.
