@@ -87,6 +87,7 @@ SSDT | Info
 SSDT-ALS0 | Enables Ambient Light Sensor
 SSDT-EC | Adds a fake Embedded Controller device
 SSDT-HPET | Fixes IRQ conflicts
+SSDT-LID0 | Fixes LID close not sleeping
 SSDT-PLUG-ALT | Fixes CPU definitions
 SSDT-PNLF | Fixes Backlight control
 SSDT-SBUS-MCHC | Fixes AppleSMBus
