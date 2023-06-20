@@ -86,6 +86,14 @@
 				<key>Path</key>
 				<string>SSDT-LID0.aml</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>SSDT-S3.aml</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-S3.aml</string>
+			</dict>
 		</array>
 		<key>Delete</key>
 		<array/>
