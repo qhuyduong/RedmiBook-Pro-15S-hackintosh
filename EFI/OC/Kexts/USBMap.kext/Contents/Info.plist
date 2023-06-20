@@ -5,13 +5,13 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleGetInfoString</key>
-	<string>1.0 Copyright © 2018-2020 Headsoft. All rights reserved.</string>
+	<string>v1.0</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.Headsoft.USBPorts</string>
+	<string>com.dortania.USBmap</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>USBPorts</string>
+	<string>USBMap</string>
 	<key>CFBundlePackageType</key>
 	<string>KEXT</string>
 	<key>CFBundleShortVersionString</key>
@@ -22,90 +22,57 @@
 	<string>1.0</string>
 	<key>IOKitPersonalities</key>
 	<dict>
-		<key>MacBookPro16,3-XHC0</key>
+		<key>XHC0</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBMergeNub</string>
 			<key>IOClass</key>
 			<string>AppleUSBMergeNub</string>
-			<key>IONameMatch</key>
-			<string>XHC0</string>
-			<key>IOPCIPrimaryMatch</key>
-			<string>0x16391022</string>
-			<key>IOProbeScore</key>
-			<integer>5000</integer>
+			<key>IOPathMatch</key>
+			<string>IOService:/AppleACPIPlatformExpert/PCI0@0/AppleACPIPCI/GP17@8,1/IOPP/XHC0@0,3/XHC0@60000000</string>
 			<key>IOProviderClass</key>
 			<string>AppleUSBXHCIPCI</string>
 			<key>IOProviderMergeProperties</key>
 			<dict>
-				<key>kUSBSleepPortCurrentLimit</key>
-				<integer>2100</integer>
-				<key>kUSBSleepPowerSupply</key>
-				<integer>5100</integer>
-				<key>kUSBWakePortCurrentLimit</key>
-				<integer>2100</integer>
-				<key>kUSBWakePowerSupply</key>
-				<integer>5100</integer>
 				<key>port-count</key>
-				<data>
-				BQAAAA==
-				</data>
+				<data>BAAAAA==</data>
 				<key>ports</key>
 				<dict>
-					<key>HSP1</key>
+					<key>PRT1</key>
 					<dict>
 						<key>UsbConnector</key>
-						<integer>9</integer>
-						<key>name</key>
-						<string>HSP1</string>
+						<integer>10</integer>
 						<key>port</key>
-						<data>
-						AQAAAA==
-						</data>
+						<data>AQAAAA==</data>
+						<key>Comment</key>
+						<string>Type C connector without Switch</string>
 					</dict>
-					<key>HSP2</key>
+					<key>PRT2</key>
 					<dict>
 						<key>UsbConnector</key>
 						<integer>3</integer>
-						<key>name</key>
-						<string>HSP2</string>
 						<key>port</key>
-						<data>
-						AgAAAA==
-						</data>
+						<data>AgAAAA==</data>
+						<key>Comment</key>
+						<string>USB 3.0 Type</string>
 					</dict>
-					<key>HSP3</key>
+					<key>PRT3</key>
 					<dict>
 						<key>UsbConnector</key>
 						<integer>255</integer>
-						<key>name</key>
-						<string>HSP3</string>
 						<key>port</key>
-						<data>
-						AwAAAA==
-						</data>
+						<data>AwAAAA==</data>
+						<key>Comment</key>
+						<string>XiaoMi USB 2.0 Webcam</string>
 					</dict>
-					<key>HSP4</key>
+					<key>PRT4</key>
 					<dict>
 						<key>UsbConnector</key>
 						<integer>255</integer>
-						<key>name</key>
-						<string>HSP4</string>
 						<key>port</key>
-						<data>
-						BAAAAA==
-						</data>
-					</dict>
-					<key>SSP5</key>
-					<dict>
-						<key>UsbConnector</key>
-						<integer>9</integer>
-						<key>name</key>
-						<string>SSP5</string>
-						<key>port</key>
-						<data>
-						BQAAAA==
-						</data>
+						<data>BAAAAA==</data>
+						<key>Comment</key>
+						<string>Bluetooth USB Host Controller</string>
 					</dict>
 				</dict>
 			</dict>
