@@ -95,7 +95,7 @@
 				<data>BAAAAA==</data>
 				<key>ports</key>
 				<dict>
-					<key>PRTA</key>
+					<key>PRT1</key>
 					<dict>
 						<key>Comment</key>
 						<string>USB 3.0 Type</string>
