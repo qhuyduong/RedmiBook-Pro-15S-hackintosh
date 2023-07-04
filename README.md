@@ -29,6 +29,7 @@ Audio | ✅
 Intel Wi-Fi | ✅
 Battery Status | ✅
 Shutdown / Reboot |✅
+Microphone | ✅
 
 ## What's not working
 
@@ -36,7 +37,6 @@ Type | Info | Status
 :---------|:---------|:----------
 USB | At the moment we need to disable one of the two USB controllers, so the ports connected to it will NOT work even in other OSes, until the setting is reverted in UMAF | ⚠️
 Bluetooth | Same as USB | ⚠️
-Microphone | It is not working for AMD, even desktops | ⚠️
 
 ## Instructions
 
@@ -57,6 +57,7 @@ NootedRed cannot be used in macOS installation. Need to disable it while install
 Kext | Info
 :---------|:---------
 [AirportItlwm](https://github.com/OpenIntelWireless/itlwm) | Intel Wi-Fi support
+[AMDMicrophone](https://github.com/qhuyduong/AMDMicrophone) | Microphone support for modern AMD laptops
 [AMDRyzenCPUPowerManagement](https://github.com/trulyspinach/SMCAMDProcessor) | AMD CPU Power Management
 [AppleALC](https://github.com/acidanthera/AppleALC) | Fixes audio
 [AppleMCEReporterDisabler](https://github.com/acidanthera/bugtracker/files/3703498/AppleMCEReporterDisabler.kext.zip) | Disables AppleIntelMCEReporter which causes panics on AMD CPUs
