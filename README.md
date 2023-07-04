@@ -28,7 +28,7 @@ CPU & GPU Power Management | ✅
 Audio | ✅
 Intel Wi-Fi | ✅
 Battery Status | ✅
-Shutdown / Reboot |✅
+Shutdown / Reboot | ✅
 Microphone | ✅
 
 ## What's not working
