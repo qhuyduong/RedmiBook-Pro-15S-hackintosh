@@ -2,3 +2,4 @@
 EFI/Microsoft
 EFI/ubuntu
 EFI/BOOT/*.efi
+**/._*
