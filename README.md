@@ -46,10 +46,6 @@ Bluetooth | Same as USB | ⚠️
 
 https://github.com/DavidS95/Smokeless_UMAF
 
-#### Disabling NootedRed
-
-NootedRed cannot be used in macOS installation. Need to disable it while installing and re-enable it then.
-
 ## Notes
 
 ## Kexts used
