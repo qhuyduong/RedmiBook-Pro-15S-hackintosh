@@ -31,7 +31,7 @@ Battery Status | ✅
 Shutdown / Reboot | ✅
 Microphone | ✅
 
-## What's not working
+## What's partially working
 
 Type | Info | Status
 :---------|:---------|:----------
