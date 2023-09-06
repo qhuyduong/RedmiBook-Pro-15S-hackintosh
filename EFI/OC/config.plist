@@ -394,7 +394,7 @@
 			<key>PciRoot(0x1)/Pci(0x8,0x1)/Pci(0x0,0x6)</key>
 			<dict>
 				<key>layout-id</key>
-				<data>CwAAAA==</data>
+				<data>FQAAAA==</data>
 			</dict>
 		</dict>
 		<key>Delete</key>
