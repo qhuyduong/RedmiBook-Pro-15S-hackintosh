@@ -64,10 +64,8 @@ Kext | Info
 [IntelBTPatcher](https://github.com/OpenIntelWireless/IntelBluetoothFirmware) | Patches bugs in macOS
 [Lilu](https://github.com/acidanthera/Lilu) | Patch Engine
 [**NootedRed**](https://github.com/NootInc/NootedRed) | Lilu plugin for AMD Vega iGPUs
-[NVMeFix](https://github.com/acidanthera/NVMeFix) | NVMe Power Management
 [RadeonSensor](https://github.com/NootInc/RadeonSensor) | Temperature readings for AMD GPUs
 [RestrictEvents](https://github.com/acidanthera/RestrictEvents) | Changes CPU Name
-[SMCAMDProcessor](https://github.com/trulyspinach/SMCAMDProcessor) | Companion to AMDRyzenCPUPowerManagement
 [SMCBatteryManager](https://github.com/acidanthera/VirtualSMC) | Enables battery reading
 [SMCLightSensor](https://github.com/acidanthera/VirtualSMC) | Ambient light sensor on laptops
 [SMCRadeonGPU](https://github.com/NootInc/RadeonSensor) | Companion to RadeonSensor
